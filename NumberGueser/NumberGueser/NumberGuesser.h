@@ -21,6 +21,8 @@ public:
     void lower();
     int getLowerNum() { return lowNum; }
     int getUpperNum() { return highNum; }
+    void setLowerNum(int lowerBound) { lowNum = lowerBound; }
+    void setUpperNum(int upperBound) { highNum = upperBound; }
     int getCurrentGuess();
     void setIsCorrect(bool didGuess);
     bool getIsCorrect() { return isCorrect; }
