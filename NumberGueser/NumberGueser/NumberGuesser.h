@@ -6,20 +6,24 @@
 //  Copyright (c) 2013 Anthony. All rights reserved.
 //
 
-#ifndef NumberGueser_NumberGuesser_h
-#define NumberGueser_NumberGuesser_h
+#ifndef NumberGuesser_h
+#define NumberGuesser_h
 
 class NumberGuesser {
     
 private:
     int lowNum, highNum, initialLower, initialHigher, currentGuess;
-    
+    bool isCorrect;
         
 public:
     NumberGuesser(int lowerBound, int upperBound);
     void higher();
     void lower();
+    int getLowerNum() { return lowNum; }
+    int getUpperNum() { return highNum; }
     int getCurrentGuess();
+    void setIsCorrect(bool didGuess);
+    bool getIsCorrect() { return isCorrect; }
     void reset();
     
     

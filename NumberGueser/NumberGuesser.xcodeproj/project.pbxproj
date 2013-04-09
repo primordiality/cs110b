@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		92B528591714981A00511458 /* NumberGueser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberGueser; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B528591714981A00511458 /* NumberGuesser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberGuesser; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B5285C1714981A00511458 /* NumberGuessingGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberGuessingGame.cpp; sourceTree = "<group>"; };
 		92B5285E1714981A00511458 /* NumberGueser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NumberGueser.1; sourceTree = "<group>"; };
 		92B52865171498DF00511458 /* NumberGuesser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberGuesser.h; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		92B5285A1714981A00511458 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92B528591714981A00511458 /* NumberGueser */,
+				92B528591714981A00511458 /* NumberGuesser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92B528581714981A00511458 /* NumberGueser */ = {
+		92B528581714981A00511458 /* NumberGuesser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92B528621714981A00511458 /* Build configuration list for PBXNativeTarget "NumberGueser" */;
+			buildConfigurationList = 92B528621714981A00511458 /* Build configuration list for PBXNativeTarget "NumberGuesser" */;
 			buildPhases = (
 				92B528551714981A00511458 /* Sources */,
 				92B528561714981A00511458 /* Frameworks */,
@@ -86,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = NumberGueser;
+			name = NumberGuesser;
 			productName = NumberGueser;
-			productReference = 92B528591714981A00511458 /* NumberGueser */;
+			productReference = 92B528591714981A00511458 /* NumberGuesser */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Anthony;
 			};
-			buildConfigurationList = 92B528541714981A00511458 /* Build configuration list for PBXProject "NumberGueser" */;
+			buildConfigurationList = 92B528541714981A00511458 /* Build configuration list for PBXProject "NumberGuesser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92B528581714981A00511458 /* NumberGueser */,
+				92B528581714981A00511458 /* NumberGuesser */,
 			);
 		};
 /* End PBXProject section */
@@ -190,21 +190,21 @@
 		92B528631714981A00511458 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NumberGuesser;
 			};
 			name = Debug;
 		};
 		92B528641714981A00511458 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NumberGuesser;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92B528541714981A00511458 /* Build configuration list for PBXProject "NumberGueser" */ = {
+		92B528541714981A00511458 /* Build configuration list for PBXProject "NumberGuesser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92B528601714981A00511458 /* Debug */,
@@ -213,7 +213,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92B528621714981A00511458 /* Build configuration list for PBXNativeTarget "NumberGueser" */ = {
+		92B528621714981A00511458 /* Build configuration list for PBXNativeTarget "NumberGuesser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92B528631714981A00511458 /* Debug */,
