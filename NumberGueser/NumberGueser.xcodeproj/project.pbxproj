@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92B5285D1714981A00511458 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92B5285C1714981A00511458 /* main.cpp */; };
+		92B5285D1714981A00511458 /* NumberGuessingGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92B5285C1714981A00511458 /* NumberGuessingGame.cpp */; };
 		92B5285F1714981A00511458 /* NumberGueser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92B5285E1714981A00511458 /* NumberGueser.1 */; };
+		92B52867171498FC00511458 /* NumberGuesser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92B52866171498FC00511458 /* NumberGuesser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,10 @@
 
 /* Begin PBXFileReference section */
 		92B528591714981A00511458 /* NumberGueser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberGueser; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B5285C1714981A00511458 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		92B5285C1714981A00511458 /* NumberGuessingGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberGuessingGame.cpp; sourceTree = "<group>"; };
 		92B5285E1714981A00511458 /* NumberGueser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NumberGueser.1; sourceTree = "<group>"; };
+		92B52865171498DF00511458 /* NumberGuesser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberGuesser.h; sourceTree = "<group>"; };
+		92B52866171498FC00511458 /* NumberGuesser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberGuesser.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 		92B5285B1714981A00511458 /* NumberGueser */ = {
 			isa = PBXGroup;
 			children = (
-				92B5285C1714981A00511458 /* main.cpp */,
+				92B5285C1714981A00511458 /* NumberGuessingGame.cpp */,
 				92B5285E1714981A00511458 /* NumberGueser.1 */,
+				92B52865171498DF00511458 /* NumberGuesser.h */,
+				92B52866171498FC00511458 /* NumberGuesser.cpp */,
 			);
 			path = NumberGueser;
 			sourceTree = "<group>";
@@ -117,7 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B5285D1714981A00511458 /* main.cpp in Sources */,
+				92B5285D1714981A00511458 /* NumberGuessingGame.cpp in Sources */,
+				92B52867171498FC00511458 /* NumberGuesser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
