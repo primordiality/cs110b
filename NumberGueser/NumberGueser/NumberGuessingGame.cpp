@@ -92,7 +92,7 @@ bool playTheGame(NumberGuesser game) {
             }
         
             else {
-                std::cout << "Invalid choice, choose [(h)igher, (l)ower, (c)orrect, (e)xit]: ";
+                std::cout << "Invalid choice, please choose [(h)igher, (l)ower, (c)orrect, (e)xit]: ";
             }
             
         } while(inputLooping);
@@ -121,7 +121,7 @@ bool playTheGame(NumberGuesser game) {
     
         else {
             std::cout << "Invalid choice. " << std::endl;
-            std::cout << "Would you like to play again? [(y)es or (n)o]: "
+            std::cout << "Would you like to play again? [(y)es or (n)o]: ";
         }
     } while(1==1);
 }

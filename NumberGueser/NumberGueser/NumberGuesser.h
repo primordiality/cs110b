@@ -1,6 +1,6 @@
 //
 //  NumberGuesser.h
-//  NumberGueser
+//  Definitions for the NumberGuesser Class
 //
 //  Created by Anthony on 4/9/13.
 //  Copyright (c) 2013 Anthony. All rights reserved.
@@ -17,23 +17,23 @@ private:
         
 public:
     NumberGuesser(int lowerBound, int upperBound);
-    void higher();
-    void lower();
-    int getLowerNum() { return lowNum; }
-    int getUpperNum() { return highNum; }
+    
     void setLowerNum(int lowerBound) { lowNum = lowerBound; }
+    int getLowerNum() { return lowNum; }
+    
+    
     void setUpperNum(int upperBound) { highNum = upperBound; }
-    int getCurrentGuess();
-    void setIsCorrect(bool didGuess);
+    int getUpperNum() { return highNum; }
+    
+    void setIsCorrect(bool didGuess) { isCorrect = didGuess; }
     bool getIsCorrect() { return isCorrect; }
+    
+    
+    void higher() { lowNum = currentGuess; }
+    void lower() { highNum = currentGuess; }
+    int getCurrentGuess();
+    
     void reset();
-    
-    
 };
 
-
 #endif
-// 100 (50)
-
-// low=guess, high=current higher
-// low=current, high=guess lower

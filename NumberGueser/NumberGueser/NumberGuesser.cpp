@@ -1,6 +1,6 @@
 //
 //  NumberGuesser.cpp
-//  NumberGueser
+//  Implementation for the NumberGuesser Class
 //
 //  Created by Anthony on 4/9/13.
 //  Copyright (c) 2013 Anthony. All rights reserved.
@@ -18,18 +18,6 @@ NumberGuesser::NumberGuesser(int lowerBound, int upperBound) {
     isCorrect = false;
 }
 
-void NumberGuesser::higher() {
-    
-    lowNum = currentGuess;
-
-}
-
-void NumberGuesser::lower() {
-    
-    highNum = currentGuess;
-}
-
-
 int NumberGuesser::getCurrentGuess() {
     
     if(!isCorrect) {
@@ -41,12 +29,6 @@ int NumberGuesser::getCurrentGuess() {
         return currentGuess;
     }
 }
-
-void NumberGuesser::setIsCorrect(bool didGuess) {
-    
-    isCorrect = didGuess;
-}
-
 
 void NumberGuesser::reset() {
     
